@@ -130,10 +130,10 @@ sections:
           tag: '*'
         - name: AI/ML in Healthcare
           tag: AI/ML in Healthcare
-        - name: Digital Longevity Biomarker
-          tag: Digital Longevity Biomarker
-        - name: Digital Inflammation Biomarker
-          tag: Digital Inflammation Biomarker
+        - name: Digital Age/Healthspan Biomarker
+          tag: Digital Age/Healthspan Biomarker
+        - name: Digital Inflammatory Biomarker
+          tag: Digital Inflammatory Biomarker
         - name: Pharmacoepidemiology
           tag: Pharmacoepidemiology
         - name: Multimodal, Real-world Data

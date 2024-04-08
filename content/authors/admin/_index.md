@@ -28,8 +28,10 @@ bio: My research interests is to advance digital healthcare through AI/ML and da
 interests:
   - AI/ML in Healthcare
   - Digital Health/Digital Medicine
-  - Digital Biomarker Discovery
-  - Precision Medicine/Personalized Healthcare
+  - Digital Age/Healthspan Biomarker
+  - Digital Inflammatory Biomarker
+  - Precision Medicine
+  - Pharmacoepidemiology
   - Multimodal, Real-world Data Analysis
 
 # Education to show in About widget
