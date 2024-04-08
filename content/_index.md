@@ -39,17 +39,9 @@ sections:
   - block: about.biography
     id: about
     content:
-      title: Biography
+      title: About me
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
-  - block: skills
-    content:
-      title: Skills
-      text: ''
-      # Choose a user to display skills from (a folder name within `content/authors/`)
-      username: admin
-    design:
-      columns: '1'
   - block: experience
     content:
       title: Experience
@@ -62,105 +54,70 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - title: CEO
-          company: GenCoin
-          company_url: ''
-          company_logo: org-gc
-          location: California
-          date_start: '2021-01-01'
+        - title: Ph.D. Candidate and Doctoral Researcher
+          company: Centre for Digital Health Interventions, ETH Zurich
+          company_url: 'https://www.c4dhi.org/'
+          company_logo: eth
+          location: Zurich, Switzerland
+          date_start: '2022-01-01'
           date_end: ''
           description: |2-
-              Responsibilities include:
+              Expected PhD defense: 2024.11 
 
-              * Analysing
-              * Modelling
-              * Deploying
-        - title: Professor of Semiconductor Physics
-          company: University X
-          company_url: ''
-          company_logo: org-x
-          location: California
-          date_start: '2016-01-01'
-          date_end: '2020-12-31'
-          description: Taught electronic engineering and researched semiconductor physics.
+              PhD research topic: [digital biomarkers for longevity using wearables](https://www.c4dhi.org/news/wearable-based-accelerometer-activity-profile/) and [digitalizing inflammatory biomarkers for systemic inflammation](https://www.c4dhi.org/projects/digitalization-of-inflammatory-biomarkers-for-chronic-systemic-inflammation/)
+
+
+        - title: Senior Data Scientist
+          company: Roche, Personalized Health Care Analytics
+          company_url: 'https://www.roche.com'
+          company_logo: roche
+          location: Basel, Switzerland
+          date_start: '2018-07-01'
+          date_end: '2021-12-31'
+          description: Applying advanced statistical models and analytical methods to real-world data (e.g. Flatrion EHR, Flatiron-FMI clinical genomics database, national-level health insurance claims), I executed business-critical and R&D projects to advance personalized health care and access among cancer patients. Research areas include global access, health authority requests, comparative effectiveness, patient-oriented outcomes, genomics-enabled personalized healthcare, pharmacoepidemiology, and R package development.
+        - title: Research Scientist
+          company: PrecisionHEOR 
+          company_url: 'https://www.precisionheor.com/'
+          company_logo: phe
+          location: San Francisco, USA
+          date_start: '2014-04-01'
+          date_end: '2018-05-31'
+          description: Provided analytical and statistical leadership for study design, data analysis, and manuscript preparation for health economics research evaluating cost-effectiveness, social value of treatment, drug utilization, efficacy, quality of care, and patient/provider characteristics.   
+        - title: Data Analyst/Biostatistician
+          company: Columbia University Medical Center 
+          company_url: 'https://www.cuimc.columbia.edu/'
+          company_logo: cu
+          location: New York, USA
+          date_start: '2012-07-01'
+          date_end: '2014-02-28'
+          description: Collaborated in cancer epidemiology research for studying cancer treatment, prevention, survivorship, late-effects of cancer therapy, health outcomes, and health disparities.  
+        - title: Research Assistant
+          company: Columbia University Medical Center 
+          company_url: 'https://www.cuimc.columbia.edu/'
+          company_logo: cu
+          location: New York, USA
+          date_start: '2011-09-01'
+          date_end: '2022-05-31'
+          description: Investigate the effect of social networks on adolescents and their friends’ disordered eating and muscle-enhancing behavior using a large survey from 2000+ youths.   
+        - title: Teaching Assistant
+          company: Columbia University Department of Biostatistics 
+          company_url: 'https://www.publichealth.columbia.edu/academics/departments/biostatistics'
+          company_logo: cu
+          location: New York, USA
+          date_start: '2011-09-01'
+          date_end: '2022-01-31'      
+          description: '' 
     design:
-      columns: '2'
-  - block: accomplishments
-    content:
-      # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
-      title: 'Accomplish&shy;ments'
-      subtitle:
-      # Date format: https://docs.hugoblox.com/customization/#date-format
-      date_format: Jan 2006
-      # Accomplishments.
-      #   Add/remove as many `item` blocks below as you like.
-      #   `title`, `organization`, and `date_start` are the required parameters.
-      #   Leave other parameters empty if not required.
-      #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
-      items:
-        - certificate_url: https://www.coursera.org
-          date_end: ''
-          date_start: '2021-01-25'
-          description: ''
-          icon: coursera
-          organization: Coursera
-          organization_url: https://www.coursera.org
-          title: Neural Networks and Deep Learning
-          url: ''
-        - certificate_url: https://www.edx.org
-          date_end: ''
-          date_start: '2021-01-01'
-          description: Formulated informed blockchain models, hypotheses, and use cases.
-          icon: edx
-          organization: edX
-          organization_url: https://www.edx.org
-          title: Blockchain Fundamentals
-          url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-        - certificate_url: https://www.datacamp.com
-          date_end: '2020-12-21'
-          date_start: '2020-07-01'
-          description: ''
-          icon: datacamp
-          organization: DataCamp
-          organization_url: https://www.datacamp.com
-          title: 'Object-Oriented Programming in R'
-          url: ''
-    design:
-      columns: '2'
-  - block: collection
-    id: posts
-    content:
-      title: Recent Posts
-      subtitle: ''
-      text: ''
-      # Choose how many pages you would like to display (0 = all pages)
-      count: 5
-      # Filter on criteria
-      filters:
-        folders:
-          - post
-        author: ""
-        category: ""
-        tag: ""
-        exclude_featured: false
-        exclude_future: false
-        exclude_past: false
-        publication_type: ""
-      # Choose how many pages you would like to offset by
-      offset: 0
-      # Page order: descending (desc) or ascending (asc) date.
-      order: desc
-    design:
-      # Choose a layout view
-      view: compact
       columns: '2'
   - block: portfolio
-    id: projects
+    id: Research
     content:
-      title: Projects
+      title: Research Areas
+      #subtitle: my research
       filters:
         folders:
           - project
+          # research
       # Default filter index (e.g. 0 corresponds to the first `filter_button` instance below).
       default_button_index: 0
       # Filter toolbar (optional).
@@ -171,28 +128,27 @@ sections:
       buttons:
         - name: All
           tag: '*'
-        - name: Deep Learning
-          tag: Deep Learning
-        - name: Other
-          tag: Demo
+        - name: AI/ML in Healthcare
+          tag: AI/ML in Healthcare
+        - name: Digital Longevity Biomarker
+          tag: Digital Longevity Biomarker
+        - name: Digital Inflammation Biomarker
+          tag: Digital Inflammation Biomarker
+        - name: Pharmacoepidemiology
+          tag: Pharmacoepidemiology
+        - name: Multimodal, Real-world Data
+          tag: Multimodal, Real-world Data
     design:
       # Choose how many columns the section has. Valid values: '1' or '2'.
       columns: '1'
       view: showcase
       # For Showcase view, flip alternate rows?
       flip_alt_rows: false
-  - block: markdown
-    content:
-      title: Gallery
-      subtitle: ''
-      text: |-
-        {{< gallery album="demo" >}}
-    design:
-      columns: '1'
   - block: collection
     id: featured
     content:
-      title: Featured Publications
+      title: Featured Work
+      subtitle: Selected projects and publications. See [all publications here](/publication/).
       filters:
         folders:
           - publication
@@ -200,84 +156,35 @@ sections:
     design:
       columns: '2'
       view: card
-  - block: collection
-    content:
-      title: Recent Publications
-      text: |-
-        {{% callout note %}}
-        Quickly discover relevant content by [filtering publications](./publication/).
-        {{% /callout %}}
-      filters:
-        folders:
-          - publication
-        exclude_featured: true
-    design:
-      columns: '2'
-      view: citation
-  - block: collection
-    id: talks
-    content:
-      title: Recent & Upcoming Talks
-      filters:
-        folders:
-          - event
-    design:
-      columns: '2'
-      view: compact
-  - block: tag_cloud
-    content:
-      title: Popular Topics
-    design:
-      columns: '2'
   - block: contact
     id: contact
     content:
       title: Contact
-      subtitle:
-      text: |-
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mi diam, venenatis ut magna et, vehicula efficitur enim.
+      #subtitle: 
+      #text: |-
+      #  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mi diam, venenatis ut magna et, vehicula efficitur enim.
       # Contact (add or remove contact options as necessary)
-      email: test@example.org
-      phone: 888 888 88 88
-      appointment_url: 'https://calendly.com'
+      email: jshim@ethz.ch
+      phone: +41 76 545 7890
       address:
-        street: 450 Serra Mall
-        city: Stanford
-        region: CA
-        postcode: '94305'
-        country: United States
-        country_code: US
-      directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
-      office_hours:
-        - 'Monday 10:00 to 13:00'
-        - 'Wednesday 09:00 to 10:00'
+        street: Centre for Digital Health Interventions, ETH Zurich, Weinbergstrasse 56/58, Room G214
+        city: Zurich
+        postcode: '8006'
+        country: Switzerland
+        country_code: CH
       # Choose a map provider in `params.yaml` to show a map from these coordinates
       coordinates:
-        latitude: '37.4275'
-        longitude: '-122.1697'  
-      contact_links:
-        - icon: twitter
-          icon_pack: fab
-          name: DM Me
-          link: 'https://twitter.com/Twitter'
-        - icon: skype
-          icon_pack: fab
-          name: Skype Me
-          link: 'skype:echo123?call'
-        - icon: video
-          icon_pack: fas
-          name: Zoom Me
-          link: 'https://zoom.com'
-      # Automatically link email and phone or display as text?
+        latitude: '47.381712'
+        longitude: '8.5441626'  
       autolink: true
       # Email form provider
-      form:
-        provider: netlify
-        formspree:
-          id:
-        netlify:
+      #form:
+      #  provider: netlify
+      #  formspree:
+      #    id:
+      #  netlify:
           # Enable CAPTCHA challenge to reduce spam?
-          captcha: false
+      #    captcha: false
     design:
       columns: '2'
 ---

@@ -1,13 +1,10 @@
 ---
 # Display name
-title: 吳健雄
-
-# Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+title: Jinjoo Shim
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: Jinjoo
+last_name: Shim
 
 # Status emoji
 status:
@@ -17,74 +14,36 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Professor of Artificial Intelligence
+role: Digital Health Data Scientist
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: Stanford University
-    url: https://www.stanford.edu/
+  - name: ETH Zurich 
+    url: https://www.ethz.ch  
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: My research interests is to advance digital healthcare through AI/ML and data science.
 
 # Interests to show in About widget
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - AI/ML in Healthcare
+  - Digital Health/Digital Medicine
+  - Digital Biomarker Discovery
+  - Precision Medicine/Personalized Healthcare
+  - Multimodal, Real-world Data Analysis
 
 # Education to show in About widget
 education:
   courses:
-    - course: PhD in Artificial Intelligence
-      institution: Stanford University
+    - course: PhD in Applied Machine Learning
+      institution: ETH Zurich
+      year: 2024
+    - course: MS in Biostatistics
+      institution: Columbia University in the City of New York
       year: 2012
-    - course: MEng in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2009
-    - course: BSc in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2008
-
-# Skills
-# For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
-skills:
-  - name: Technical
-    items:
-      - name: Python
-        description: ''
-        percent: 80
-        icon: python
-        icon_pack: fab
-      - name: Data Science
-        description: ''
-        percent: 100
-        icon: chart-line
-        icon_pack: fas
-      - name: SQL
-        description: ''
-        percent: 40
-        icon: database
-        icon_pack: fas
-  - name: Hobbies
-    color: '#eeac02'
-    color_border: '#f0bf23'
-    items:
-      - name: Hiking
-        description: ''
-        percent: 60
-        icon: person-hiking
-        icon_pack: fas
-      - name: Cats
-        description: ''
-        percent: 100
-        icon: cat
-        icon_pack: fas
-      - name: Photography
-        description: ''
-        percent: 80
-        icon: camera-retro
-        icon_pack: fas
+    - course: BS in International Health
+      institution: University of Alabama at Birmingham
+      year: 2010
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -94,21 +53,15 @@ social:
   - icon: envelope
     icon_pack: fas
     link: '/#contact'
-  - icon: twitter
-    icon_pack: fab
-    link: https://twitter.com/GeorgeCushen
-    label: Follow me on Twitter
-    display:
-      header: true
-  - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
-    icon_pack: fas
-    link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
-  - icon: github
-    icon_pack: fab
-    link: https://github.com/gcushen
+  - icon: google-scholar # Alternatively, use `google-scholar` icon from `ai` icon pack
+    icon_pack: ai
+    link: https://scholar.google.com/citations?hl=en&user=BSNxs9kAAAAJ&view_op=list_works&sortby=pubdate
   - icon: linkedin
     icon_pack: fab
-    link: https://www.linkedin.com/
+    link: https://www.linkedin.com/in/jinjooshim
+  - icon: orcid
+    icon_pack: ai
+    link: https://orcid.org/0000-0003-0226-7369
   # Link to a PDF of your resume/CV.
   # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.yaml`,
   # and uncomment the lines below.
@@ -120,5 +73,12 @@ social:
 highlight_name: true
 ---
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+I'm a Digital Health Data Scientist. With 9+ years of work experience and solid academic background, my passion lies in **exploring innovative digital health applications and biomarker research at the intersection of medicine, AI/ML, data science, and ubiquitous computing**. 
+
+I'm currently pursuing a PhD in Applied Machine Learning in the [Center for Digital Health Interventions](https://www.c4dhi.org/) at [ETH Zurich](https://www.ethz.ch/en.html). 
+
+Before ETH Zurich, I gained extensive expertise in diverse data modalities and analytical techniques in healthcare and medical research as I served as a Senior Data Scientist at [Roche](https://www.roche.com) specializing in personalized healthcare, a Research Scientist at [PRECISIONheor](https://www.precisionheor.com/), and a Data Analyst/Biostatistician at [Columbia University Medical Center](https://www.cuimc.columbia.edu/). I obtained a Master's degree in Biostatistics from [Columbia University in the City of New York](https://www.columbia.edu/). 
+
+My PhD research focuses on [digital biomarkers for aging and healthspan using wearables](https://www.c4dhi.org/news/wearable-based-accelerometer-activity-profile/) and [digitalizing inflammatory biomarkers for systemic inflammation](https://www.c4dhi.org/projects/digitalization-of-inflammatory-biomarkers-for-chronic-systemic-inflammation/). 
+
 {style="text-align: justify;"}

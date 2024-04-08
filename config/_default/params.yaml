@@ -9,7 +9,7 @@ appearance:
   theme_day: minimal
   theme_night: minimal
   font: minimal
-  font_size: L
+  font_size: S
 
 # SEO
 
@@ -96,9 +96,10 @@ features:
       index_name: ''
       show_logo: false
   map:
-    provider: 'mapnik'
+    provider: 'mapnik' #mapnik
     api_key: ''
-    zoom: 15
+    zoom: 16
+
 
 # Extensions
 
@@ -114,3 +115,4 @@ extensions:
 security:
   # Allow frame for embedding speaker notes in slides
   allow_frame: true
+
