@@ -148,7 +148,7 @@ sections:
     id: featured
     content:
       title: Featured Work
-      subtitle: Selected projects and publications. See [all publications here](/publication/).
+      subtitle: Selected projects and publications. See [all publications here](https://jinjoo-shim.github.io/jinjooshim.github.io/publication/).
       filters:
         folders:
           - publication
