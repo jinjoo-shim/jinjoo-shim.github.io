@@ -22,7 +22,7 @@ doi: ""
 publication_types: ["article-journal"]
 
 # Publication name and optional abbreviated publication name.
-publication: "*JAMIA (Forthcoming)*"
+publication: "*JAMIA (in press)*"
 publication_short: ""
 
 abstract: 
