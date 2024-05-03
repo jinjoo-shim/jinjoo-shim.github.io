@@ -75,7 +75,7 @@ social:
 highlight_name: true
 ---
 
-I'm a Digital Health Data Scientist. With 9+ years of work experience and solid academic background, my passion lies in **exploring innovative digital health applications and biomarker research at the intersection of medicine, AI/ML, data science, and ubiquitous computing**. 
+I'm a Digital Health Data Scientist. With 9+ years of work experience and solid academic background, my passion lies in **exploring innovative digital health applications and biomarker research at the intersection of medicine, AI/ML, statistics, data science, and ubiquitous computing**. 
 
 I'm currently pursuing a PhD in Applied Machine Learning in the [Center for Digital Health Interventions](https://www.c4dhi.org/) at [ETH Zurich](https://www.ethz.ch/en.html). 
 

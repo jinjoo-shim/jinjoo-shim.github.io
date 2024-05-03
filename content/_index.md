@@ -116,7 +116,7 @@ sections:
       #subtitle: my research
       filters:
         folders:
-          - project
+          - research
           # research
       # Default filter index (e.g. 0 corresponds to the first `filter_button` instance below).
       default_button_index: 0
@@ -125,25 +125,26 @@ sections:
       # To show all items, set `tag` to "*".
       # To filter by a specific tag, set `tag` to an existing tag name.
       # To remove the toolbar, delete the entire `filter_button` block.
-      buttons:
-        - name: All
-          tag: '*'
-        - name: AI/ML in Healthcare
-          tag: AI/ML in Healthcare
-        - name: Digital Age/Healthspan Biomarker
-          tag: Digital Age/Healthspan Biomarker
-        - name: Digital Inflammatory Biomarker
-          tag: Digital Inflammatory Biomarker
-        - name: Pharmacoepidemiology
-          tag: Pharmacoepidemiology
-        - name: Multimodal, Real-world Data
-          tag: Multimodal, Real-world Data
+      #buttons:
+       # - name: All
+       #   tag: '*'
+       # - name: AI/ML in healthcare
+       #   tag: AI/ML in healthcare
+       # - name: Digital Age & Healthspan
+       #   tag: Digital Age & Healthspan
+       # - name: Digital Inflammatory Biomarker
+       #   tag: Digital Inflammatory Biomarker
+       # - name: Pharmacoepi
+       #   tag: Pharmacoepi
+       # - name: Multi-modal Data
+       #   tag: Multi-modal Data
     design:
       # Choose how many columns the section has. Valid values: '1' or '2'.
       columns: '1'
-      view: showcase
+      view: masonry
       # For Showcase view, flip alternate rows?
-      flip_alt_rows: false
+      flip_alt_rows: TRUE
+      spacing: {padding: [0, 0, 0, 0]}
   - block: collection
     id: featured
     content:
