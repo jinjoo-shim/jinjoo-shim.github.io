@@ -40,7 +40,7 @@ url_video: ''
 ---
 
 # Publications
-* NOn-inVAsive, multi-modal inflammatory biomarker discovery for systemic inflammation: A feasibility study protocol (NOVA Study), *(Under review)*
+* [NOn-inVAsive, multi-modal inflammatory biomarker discovery for systemic inflammation: A feasibility study protocol (NOVA Study), *(Under Review)*](https://jinjoo-shim.github.io/publication/journal17)
 
 Several studies have shown robust evidence between the chronic systemic inflammation (SI) and increasing risks of mortality and various non-communicable diseases, including hypertension, hyperglycemia, type II diabetes, autoimmune diseases, cardiovascular disease, chronic kidney disease, several types of malignancies, depression and sarcopenia. 
 
