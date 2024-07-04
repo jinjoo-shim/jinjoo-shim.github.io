@@ -7,8 +7,8 @@ authors:
 author_notes:
 #- "Equal contribution"
 #- "Equal contribution"
-date: "2024-04-07"
-doi: "https://doi.org/10.21203/rs.3.rs-3740073/v1"
+date: "2024-06-04"
+doi: "https://doi.org/10.1038/s41746-024-01111-x"
 
 # Schedule page publish date (NOT publication's date).
 #publishDate: "2017-01-01T00:00:00Z"
@@ -19,7 +19,7 @@ doi: "https://doi.org/10.21203/rs.3.rs-3740073/v1"
 publication_types: ["article-journal"]
 
 # Publication name and optional abbreviated publication name.
-publication: "*npj Digital Medicine (in press)*"
+publication: "*npj Digital Medicine*"
 publication_short: ""
 
 abstract: Recognizing the pivotal role of circadian rhythm in the human aging process and its scalability through wearables, we introduce CosinorAge, a novel digital biomarker of aging developed from wearable-derived circadian rhythmicity from 80,000 midlife and older adults in the UK and US. A one-year increase in CosinorAge corresponded to 8-12% higher all-cause and cause-specific mortality risks and 3-14% increased prospective incidences of age-related diseases. CosinorAge also captured a non-linear decline in resilience and physical functioning, evidenced by an 8-33% reduction in self-rated health and a 3-23% decline in health-related quality of life score, adjusting for covariates and multiple testing. The associations were robust in sensitivity analyses and external validation using an independent cohort from a disparate geographical region using a different wearable device. Moreover, we illustrated a heterogeneous impact of circadian parameters associated with biological aging, with young (<45 years) and fast agers experiencing a substantially delayed acrophase with a 25-minute difference in peak timing compared to slow agers, diminishing to a 7-minute difference in older adults (>65 years). Our findings underscore CosinorAge’s potential as a scalable, economic, and digital solution for promoting healthy longevity, elucidating the critical and multifaceted circadian rhythmicity in aging processes. Consequently, our research contributes to advancing preventive measures in digital medicine.

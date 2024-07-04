@@ -2,9 +2,9 @@
 title: "Measuring Sarcopenia Severity in Older Adults and the Value of Effective Interventions" 
 authors:
   - Joanna MacEwan
-  - Thomas Gill, 
-  - Kimberly Johnson, 
-  - Jason Doctor, 
+  - Thomas Gill 
+  - Kimberly Johnson
+  - Jason Doctor 
   - Jeff Sullivan
   - admin
   - Darius Goldman
