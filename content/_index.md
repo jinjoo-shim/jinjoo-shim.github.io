@@ -62,9 +62,9 @@ sections:
           date_start: '2022-01-01'
           date_end: ''
           description: |2-
-              Expected PhD defense: 2024.11 
-
-              PhD research topic: [digital biomarkers for longevity using wearables](https://www.c4dhi.org/news/wearable-based-accelerometer-activity-profile/) and [digitalizing inflammatory biomarkers for systemic inflammation](https://www.c4dhi.org/projects/digitalization-of-inflammatory-biomarkers-for-chronic-systemic-inflammation/)
+              PhD Thesis: Towards Digital Biomarker of Aging and Systemic Inflammation Leveraging Machine Learning
+              
+              Project details can be found in [digital biomarkers for longevity using wearables](https://www.c4dhi.org/news/wearable-based-accelerometer-activity-profile/) and [digitalizing inflammatory biomarkers for systemic inflammation](https://www.c4dhi.org/projects/digitalization-of-inflammatory-biomarkers-for-chronic-systemic-inflammation/)
 
 
         - title: Senior Data Scientist
@@ -97,7 +97,7 @@ sections:
           company_logo: cu
           location: New York, USA
           date_start: '2011-09-01'
-          date_end: '2022-05-31'
+          date_end: '2012-05-31'
           description: Investigate the effect of social networks on adolescents and their friends’ disordered eating and muscle-enhancing behavior using a large survey from 2000+ youths.   
         - title: Teaching Assistant
           company: Columbia University Department of Biostatistics 
@@ -105,7 +105,7 @@ sections:
           company_logo: cu
           location: New York, USA
           date_start: '2011-09-01'
-          date_end: '2022-01-31'      
+          date_end: '2012-01-31'      
           description: '' 
     design:
       columns: '2'
