@@ -17,21 +17,6 @@ On this page, you'll find some examples of the types of technical content that c
 
 ### Code
 
-Wowchemy supports a Markdown extension for highlighting code syntax. You can customize the styles under the `syntax_highlighter` option in your `config/_default/params.yaml` file.
-
-    ```python
-    import pandas as pd
-    data = pd.read_csv("data.csv")
-    data.head()
-    ```
-
-renders as
-
-```python
-import pandas as pd
-data = pd.read_csv("data.csv")
-data.head()
-```
 
 ### Mindmaps
 
@@ -327,17 +312,6 @@ renders as
   - [x] Write diagram example
 - [ ] Do something else
 
-### Tables
-
-Save your spreadsheet as a CSV file in your page's folder and then render it by adding the _Table_ shortcode to your page:
-
-```go
-{{</* table path="results.csv" header="true" caption="Table 1: My results" */>}}
-```
-
-renders as
-
-{{< table path="results.csv" header="true" caption="Table 1: My results" >}}
 
 ### Callouts
 
